@@ -181,4 +181,38 @@ No. | Git | Github
     git branch --set-upstream-to=origin/branch_name
     ```
 
-### If you like the the content give a :star: and follow :heart_eyes: :v:
+7. Removing Remote URL from the Project
+   * Removes the remote origin url from the project
+   * incase you want to stop pushing to a particular repository
+   ```bash
+   git remote remove origin
+ ```
+   8. Deleting contents and pushing from another project
+      * This is useful incase you want to delete a particular code base and push from another project
+      * make sure to navigate to the project that you want to delete from the github hosting repository
+      * USE CODE WITH CAUTIOUSNESS or kitakuramba
+      ```bash
+      git rm -rf .
+      ```
+      * commit the removal
+      ```bash
+      git commit -m "<YOUR COMMIT MESSAGE>"
+      ```
+      * push changes to github
+
+      ```bash
+      git push origin main
+      ```
+
+      * At this state your repo is empty
+
+8. Pushing new code ....above cont
+
+   * set the upstream branch
+   ```bash
+   git branch --set-upstream-to=origin//main
+   ```
+   * Make sure to pull the latest changes first
+   ```bash
+   git pull origin main --rebase
+      
