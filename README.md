@@ -190,7 +190,7 @@ No. | Git | Github
 8. Deleting Contents and Pushing from Another Project
    * Useful if you want to delete a particular codebase and push from another project.
    * Navigate to the project you want to delete from the GitHub repository.
-   * **Use with caution:**
+   * **USE WITH CAUTION OR KITAKURAMBA:**
      ```bash
      git rm -rf .
      ```
