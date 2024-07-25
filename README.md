@@ -55,7 +55,7 @@ No. | Git | Github
     ```
     Example
     ```bash
-    git remote add origin https://github.com/piexie3/git-github
+    git remote add origin https://github.com/Wamitinewton/git_github
     ```
     
 6. Add Files to the Repository:
