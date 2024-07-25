@@ -186,27 +186,27 @@ No. | Git | Github
    * incase you want to stop pushing to a particular repository
    ```bash
    git remote remove origin
- ```
-   8. Deleting contents and pushing from another project
-      * This is useful incase you want to delete a particular code base and push from another project
-      * make sure to navigate to the project that you want to delete from the github hosting repository
-      * USE CODE WITH CAUTIOUSNESS or kitakuramba
+  ```
+8. Deleting contents and pushing from another project
+    * This is useful incase you want to delete a particular code base and push from another project
+    * make sure to navigate to the project that you want to delete from the github hosting repository
+    * USE CODE WITH CAUTIOUSNESS or kitakuramba
       ```bash
       git rm -rf .
       ```
-      * commit the removal
+    * commit the removal
       ```bash
       git commit -m "<YOUR COMMIT MESSAGE>"
       ```
-      * push changes to github
+    * push changes to github
 
       ```bash
       git push origin main
       ```
 
-      * At this state your repo is empty
+    * At this state your repo is empty
 
-8. Pushing new code ....above cont
+9. Pushing new code ....above cont
 
    * set the upstream branch
    ```bash
