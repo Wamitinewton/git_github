@@ -213,3 +213,7 @@ No. | Git | Github
      ```bash
      git pull origin main --rebase
      ```
+   * Push Your Changes
+     ```bash
+     git push origin main --force
+     ```  
